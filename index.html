@@ -9,13 +9,10 @@
 	}
 	--> 
 	body {
-		background: url("http://blog.hostbaby.com/backgrounds/bg_bluegradient.jpg");
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
+		background-color:black;
 		color: white;
 		text-align: center;
 		font-family: Papyrus,fantasy
-		background-attachment: fixed;
 	}
 	h1 {
 		color:white;
@@ -25,18 +22,21 @@
         color:white;
 	}
 	
-	background{
+	.background{
+		background: url("http://blog.hostbaby.com/backgrounds/bg_bluegradient.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
 		margin-top: 100px;
 		margin-bottom: 100px;
 		margin-right: 150px;
 		margin-left: 50px;
-		background-color:black;
+		background-attachment: fixed;
 	}
 
 </style>
 </head>
 <body>
-<div id="background"> 
+<div class="background">
 <h1>Hello! </h1> 
 <br>
 <p> This website is created in pure HTML & CSS used for teaching high school students programming. 
